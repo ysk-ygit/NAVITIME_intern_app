@@ -1,0 +1,57 @@
+/* 共通定義 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 地図 */
+#map {
+  background: #666;
+  height: 100vh;
+  width: 100%;
+  z-index: 10;
+}
+
+/* 検索ボックス */
+.search-area {
+  background-color: white;
+  width: 450px;
+  height: 850px;
+  z-index: 30;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 35px;
+  padding: 10px;
+  text-align: center;
+  overflow: scroll;
+}
+
+#search-word {
+  width:300px ;
+  height: 20px;
+  border: double 4px #ccc; 
+  margin-bottom: 15px;
+}
+#spot-search-button{
+  width: 40px;
+  height: 30px;
+  font-family: 'Franklin Gothic Medium', "游ゴシック", Arial, sans-serif;
+}
+
+#spot-container > p {
+
+  font-family: "游ゴシック", sans-serif;
+  font-size: 16px;
+  text-align: left; 
+
+
+}
+
+#spot-search-button {
+  
+  background-color: rgb(74, 106, 158);
+  color: aliceblue;
+}
+
+
+/* 左ペイン */
